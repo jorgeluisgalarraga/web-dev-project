@@ -21,28 +21,28 @@ const artists = [
         popularTune: "Push & Shove"
     }
 ]
-document.addEventListener('DOMContentLoaded', () => {
+
+const renderArtists = () => {
     const artistsContainer = document.getElementById('artistsContainer');
+    artists.forEach((artist, index) => {
+        const artistItem = document.createElement('div');
+        artistItem.className = 'artist';
+        artistItem.innerHTML = `
+            <img src=${artist.photo} alt="Harm&Ease" > 
+            <h3>${artist.name}</h3>
+            <p>${artist.time}</p>
+            <p>${artist.genre}</p>
+            <p>${artist.popularTune}</p>
+            `;
 
-    const renderArtists = () => {
-        artists.forEach((artist) => {
-            const artistItem = document.createElement('div');
-            artistItem.className = 'artist';
-            artistItem.innerHTML = `
-                <img src=${artist.photo} alt="Harm&Ease" > 
-                <h3>${artist.name}</h3>
-                <p>${artist.time}</p>
-                <p>${artist.genre}</p>
-                <p>${artist.popularTune}</p>
-                `;
+        const addButton = document.createElement('button');
+        addButton.textContent = 'Buy Ticket';
+        artistItem.appendChild(addButton);
+        artistsContainer.appendChild(artistItem);
+    })
+};
 
-            const addButton = document.createElement('button');
-            addButton.textContent = 'Buy Ticket';
-            artistItem.appendChild(addButton);
-            artistsContainer.appendChild(artistItem);
-        })
-    };
 
-renderArtists();
-
+document.addEventListener('DOMContentLoaded', () => {
+    renderArtists();
 });
