@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Get the leaflet (map) CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" 
+    crossorigin="" />
+
+    <!-- IONIC ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+    <nav style="display: flex; background-color: rgb(12, 4, 4); z-index: -1; color: #ff6f00;
+    justify-content: center;">
+        <h1>NAV</h1>
+    </nav>
+</head>
+<body>
+    
+    <main class="background-image">
+        <h1>SOUND OF MUSIC FESTIVAL</h1>
+        <h2>FROM JAN 26 - 28, 2024</h2>
+        <ul>
+            <li id="li-left"><a href="#map">SPENCER PARK</a></li>
+            <li id="li-right">ONTARIO, CANADA</li>
+        </ul>
+    </main>
+
+    <div class="container"">
+
+        <h1>TICKETS & PASSES</h1>
+        <p>Choose from a variety of passes and tickets options.</p>
+        <div id="buy-tickets">
+            <!-- <h1 style="color: aliceblue;">Buy your tickets</h1> -->
+
+                <div class="tickets" id="left-ticket">
+                    <ion-icon name="ticket"></ion-icon>
+                    <p class="font-pass">ONE DAY PASS</p>
+                    <p class="price">$95</p>
+                    <ul>
+                        <li>Access to every performance on 1 day</li>
+                        <li>7% off all snacks and drinks</li>
+                    </ul>
+                    <button class="purchase" onclick="redirect()">BUY TICKET</button>
+                </div>
+
+                <div class="tickets" id="right-ticket">
+                    <ion-icon name="musical-notes"></ion-icon>
+                    <p class="font-pass">ALL ACCESS PASS</p>
+                    <p class="price">$274</p>
+                    <ul>
+                        <li>Unlimited access to every performance</li>
+                        <li>Valid for entry on all festival days</li>
+                        <li>Skip the line with fast entry</li>
+                        <li>15% off all snacks and drins</li>
+                        <li>Explusive backstage meet and greets</li>
+                    </ul>
+
+                    <button class="purchase" onclick="redirect()">BUY TICKET</button>
+                </div>
+
+        </div>    
+    </div>
+
+    <div id="bgMap" class="container">
+        <h1>Location</h1>
+        <p>Follow this location to get to the event</p>
+        <div id="map">
+
+        </div>
+    </div>
+        
+
+
+    <footer style="display: flex; background-color: rgb(12, 4, 4); z-index: -1; color: #ff6f00;
+    justify-content: center;">
+        <h1>Footer</h1>
+    </footer>
+
+    <!-- Get the leaflet JavaScript file -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity= 
+"sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
+<script src="home.js"></script>
+</body>
+</html>
