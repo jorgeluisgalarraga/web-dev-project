@@ -18,3 +18,31 @@ a {
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
+
+#artistsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist{
+    display: flex;
+    flex-direction: row;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details button {
+    width: 50px;
+    height: 10px;
+}
+
+#artistsContainer img {
+    width: 600px;
+    height: auto;
+    margin: 20px;
+
+}

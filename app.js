@@ -28,16 +28,21 @@ const renderArtists = () => {
         const artistItem = document.createElement('div');
         artistItem.className = 'artist';
         artistItem.innerHTML = `
-            <img src=${artist.photo} alt="Harm&Ease" > 
-            <h3>${artist.name}</h3>
-            <p>${artist.time}</p>
-            <p>${artist.genre}</p>
-            <p>${artist.popularTune}</p>
+            <div className="image">
+                <img src=${artist.photo} alt="Harm&Ease" > 
+            </div>
+            <div className="details">
+                <h3>${artist.name}</h3>
+                <p>Performance starts at ${artist.time}</p>
+                <p>Genge - ${artist.genre}</p>
+                <p>Popular song - ${artist.popularTune}</p>
+                <button>Buy Ticket</button>
+            </div>
             `;
 
-        const addButton = document.createElement('button');
-        addButton.textContent = 'Buy Ticket';
-        artistItem.appendChild(addButton);
+        // const addButton = document.createElement('button');
+        // addButton.textContent = 'Buy Ticket';
+        // artistItem.appendChild(addButton);
         artistsContainer.appendChild(artistItem);
     })
 };
