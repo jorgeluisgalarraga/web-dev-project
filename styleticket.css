@@ -1,0 +1,119 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48;
+
+    color: rgb(27, 7, 117);
+}
+
+.heroticket{
+    background-color: rgb(111, 111, 247);
+    height: 200px;
+    
+    padding: 50px;
+
+}
+
+.heroticket>p{
+    color: rgb(227, 239, 255);
+    font-size: 40;
+    width: 50%;
+}
+
+.ticketOptions{
+    margin: 40px 60px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding-left: auto;
+    padding-right: auto;
+
+
+}
+
+.ticketOptions button{
+
+    padding: 5px 10px;
+    width: 140px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+
+    border-radius: 40px;
+
+    color: rgb(45, 71, 128);
+    
+    border: 0.2px solid rgb(45, 71, 128) ;
+
+    background-color: rgb(197, 215, 255);
+    
+}
+
+.cardicon{
+
+    font-size: 60px;
+    color: rgb(85, 55, 192);
+}
+
+.ticketOptions h2{
+    font-size: 30px;
+    color: rgb(85, 55, 192);
+}
+
+.ticketOptions p{
+    font-size: 30px;
+    margin-top: 2px;
+    font-weight: 800;
+
+}
+
+
+
+
+
+.option1{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(220, 215, 250);
+    /* height: 320px; */
+
+    border: 2px solid rgb(60, 0, 156);
+    
+    margin-right: 20px;
+    padding: 30px 15px;
+
+    align-items: center;
+
+    
+}
+
+
+.options2{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(220, 215, 250);
+    /* height: 320px; */
+
+    border: 2px solid rgb(60, 0, 156);
+
+    margin-left: 20px;
+    padding: 30px 15px;
+
+    align-items: center;
+
+}
+
+ul > li {
+    list-style: none;
+    width: 90%;
+}
+
+/* this is a change 002 */
+
+
