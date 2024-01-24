@@ -25,90 +25,107 @@
 <body>
 
 
+    <div class="heroticket">
+
+        <h1>Ticket Pricing & Options</h1>
+
+        <p>We think about our fans and their needs, please check below options and get the best experience of your life!</p>
+
+    </div>
+
+
     <!-- tickets page  -->
 
-    <section >
-
-        <div class="heroticket">
-
-            <h1>Ticket Pricing & Options</h1>
-
-            <p>We think about our fans and their needs, please check below options and get the best experience of your life!</p>
-
-        </div>
 
 
-        <!-- this part shows the different options of the tickets to users -->
+    <section class="section1">
 
-        <div class="ticketOptions">
+            <form id="abc1">        
 
-            <!-- option 1 -->
-            
-            <div class="option1">   
+                <div>
 
-                <ion-icon name="ticket-outline" class="cardicon"></ion-icon>
+                    <label for="to know what kind of ticket user wants">
+                        Select the ticket type: 
+                    </label> <br>
 
-                <h2>
-                    One Day Pass
-                </h2>
+                    <select id="ticketType">
+                        <option value="oneDay">One Day Pass</option>
+                        <option value="allAccess">All Access Pass</option>
+                    </select>
 
-                <p>
-                    $70
-                </p>
+                </div>
 
-                <ul>    
+                <div>
 
-                    
+                    <label for="Number of ticket">
+                        How many tickets you would like to get?
+                    </label> <br>
 
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the amazong music fastival for 1 whole day</li>
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the food with 10% discount</li>
-                    <li> <ion-icon name="flash"></ion-icon> Free meet and greet with one of the muscians at 12pm</li>
-                </ul>
+                    <input type="number" min="1" max="5" id="numOfTicket">
 
-                <button>
-                    Buy Tickets
-                </button>
 
-            </div>
+                    <!--
+                        <select name="" id="" class="ticketSelector">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        </select> -->
 
-            <!-- option 2 -->
+                </div>
 
-            <div class="options2">
+                <div>
 
-                <ion-icon name="musical-notes-outline" class="cardicon" ></ion-icon>
+                    <label for="First Name">
+                        Your First Name:
+                    </label> <br>
 
-                <h2>
-                    All Access Pass
-                </h2>
+                    <input type="text" name="" id="firstName" placeholder="Ex. Harry">
 
-                <p>
-                    $310
-                </p>
+                </div>
 
-                <ul>
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the amazong music fastival for 1 whole day</li>
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the food with 10% discount</li>
-                    <li> <ion-icon name="flash"></ion-icon> Free meet and greet with one of the muscians at 12pm</li>
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the amazong music fastival for 1 whole day</li>
-                    <li> <ion-icon name="flash"></ion-icon> Enjoy the food with 10% discount</li>
-                    <li> <ion-icon name="flash"></ion-icon> Free meet and greet with one of the muscians at 12pm</li>
-                </ul>
+                <div>
 
-                <button>
-                    Buy Tickets
-                </button>
+                    <label for="Last Name">
+                        Your Last Name:
+                    </label> <br>
 
-            </div>
+                    <input type="text" name="" id="lastName" placeholder="Ex. Potter">
 
-        </div>
+                </div>
 
+
+                <div>
+
+                    <label for="Credit Card Info">
+                        Enter Credit Card Information
+                    </label> <br>
+
+                    <input type="text" placeholder="Ex. 456 456 464" id="ccInfo" maxlength="6">
+
+                </div>
+
+
+
+                <button>Pay Now</button>
+
+                <!-- <button type="submit">Pay Now</button> -->
+
+                
+
+
+            </form>
 
 
 
     </section>
 
+    <div id="afterPayment">
 
-
+    </div>
+    
     <!-- linking javascript here -->
 
     <script src="tickets.js"></script>
