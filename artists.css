@@ -15,6 +15,7 @@ body {
     background-color: black;
     padding: 15px 30px;
     margin-top: 0;
+    font-size: 30px;
 }
 
 .menu li {
@@ -55,10 +56,13 @@ body {
 .about {
     padding-left: 100px;
     position: relative;
+    font-size: 20px;
 }
 
 .about h1 {
     text-align: center;
+    text-decoration-line: underline;
+    font-size: 40px;
 }
 
 
@@ -80,4 +84,9 @@ body {
 
 .purchase:hover{
     background-color: black;
+}
+
+iframe {
+    border: 5px solid #ff6f00;
+    border-radius: 50px;
 }

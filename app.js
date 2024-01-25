@@ -41,12 +41,10 @@ const renderArtists = () => {
         artistItem.className = 'artist';
         artistItem.innerHTML = `
             <div>
-                <iframe width="560" height="315"
-                src=${artist.youtube}>
-                </iframe>
+                <iframe width="560" height="315" src=${artist.youtube}></iframe>
             </video> 
             </div>
-            <div class="abgitout">
+            <div class="about">
                 <h1>${artist.name}</h1>
                 <p>Performance starts at <strong> ${artist.time}</strong></p>
                 <p>Genre - <strong>${artist.genre}</strong></p>
