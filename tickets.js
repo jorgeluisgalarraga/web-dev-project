@@ -1,3 +1,7 @@
+console.log("Hey out")
+
+
+
 const buttonPressed = (event) => {
 
     event.preventDefault();
@@ -29,6 +33,8 @@ const buttonPressed = (event) => {
 
     console.log("Credit Card Information:", ccInfo);
 
+    
+
     // calcilation 
 
 
@@ -53,7 +59,7 @@ const buttonPressed = (event) => {
     } 
 
 
-    afterPayment. innerHTML += "Your name on the ticket: " + firstName + " " + lastName + "</p>";
+    afterPayment. innerHTML += "<p>Your name on the ticket: " + firstName + " " + lastName + "</p>";
 
 
 
@@ -62,9 +68,21 @@ const buttonPressed = (event) => {
     afterPayment.innerHTML += "<p>Subtotal: $ " + subtotal.toFixed(2) + " </p>" ;
     afterPayment.innerHTML += "<p>Tax (13%): $ " + tax.toFixed(2) + " </p>" ;
     afterPayment.innerHTML += "<p>Final Price: $ " + total.toFixed(2) + " </p>" ;
-
-
+  
  }
 
 document.querySelector("button").addEventListener("click", buttonPressed)
 
+
+
+// const xyz = () => {
+//     console.log("Heyyyy")
+// }
+
+// document.getElementById('abc1').addEventListener('submit', function (event) { 
+//     event.preventDefault(); 
+//     xyz() 
+    
+// })
+
+// console.log(xyz)
