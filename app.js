@@ -49,7 +49,9 @@ const renderArtists = () => {
                 <p>Performance starts at <strong> ${artist.time}</strong></p>
                 <p>Genre - <strong>${artist.genre}</strong></p>
                 <p>Popular song - <strong>${artist.popularTune}</strong></p>
-                <button class="purchase">Buy Ticket</button>
+                <a href="ticketindex.html">
+                    <button class="purchase">Buy Ticket</button>
+                </a>
             </div>
             `;
 

@@ -69,6 +69,7 @@ body {
 .about button{
     position: relative;
     bottom: -15%;
+    border: 1px solid #ff6f00;
   }
 
 .purchase {
