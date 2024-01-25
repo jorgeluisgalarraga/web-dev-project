@@ -1,14 +1,12 @@
 const artists = [
     {
-        photo: "http://harmandease.com/wp-content/uploads/2022/09/DSC9247-1-1-scaled.jpg",
-        name: "Harm&Ease",
+        name: "Harm & Ease",
         time:"7:30 pm",
         genre: "Rock & Roll",
         popularTune: "Push & Shove",
         youtube: "https://www.youtube.com/embed/E6GuzgwgDAs?si=HN_zwEQX-RkvwDuu"
     },
     {
-        photo: "https://images.squarespace-cdn.com/content/v1/5ef41efecb87f82095e58b26/e9eda7df-a64d-486c-998d-8fe91219e11a/Cory+Hotline+Edits-6767.jpg?format=1500w",
         name: "Cory Hotline",
         time:"8:30 pm",
         genre: "Funk, Rock & Disco",
@@ -16,7 +14,6 @@ const artists = [
         youtube: "https://www.youtube.com/embed/qHA5fQ5BPFg?si=7_UUr7D9OAzq0J6s"
     },
     {
-        photo: "https://ontariosmallhalls.com/wp-content/uploads/2023/05/Spoons-Pic-2-August-2022-845x1024.jpg",
         name: "SPOONS",
         time:"9:30 pm",
         genre: "New Wave, Synth-Pop",
@@ -25,7 +22,6 @@ const artists = [
 
     },
     {
-        photo: "https://www.vmcdn.ca/f/files/victoriatimescolonist/json/2022/03/web1_men-without-hats.jpeg",
         name: "DERAPS",
         time:"10:30 pm",
         genre: "New Wave, Synth-Pop",
