@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets 01</title>
+
+    <!-- linking css -->
+    <link rel="stylesheet" href="styleticket.css">
+
+    <!-- icons script  -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- fonts link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <div class="heroticket">
+
+        <h1>Ticket Pricing & Options</h1>
+
+        <p>We think about our fans and their needs, please check below options and get the best experience of your life!</p>
+
+    </div>
+
+
+    <!-- tickets page  -->
+
+
+
+    <section class="section1">
+
+            <form id="abc1">        
+
+                <div>
+
+                    <label for="to know what kind of ticket user wants">
+                        Select the ticket type: 
+                    </label> <br>
+
+                    <select id="ticketType">
+                        <option value="oneDay">One Day Pass</option>
+                        <option value="allAccess">All Access Pass</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <label for="Number of ticket">
+                        How many tickets you would like to get?
+                    </label> <br>
+
+                    <input type="number" min="1" max="5" id="numOfTicket">
+
+
+                    <!--
+                        <select name="" id="" class="ticketSelector">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        </select> -->
+
+                </div>
+
+                <div>
+
+                    <label for="First Name">
+                        Your First Name:
+                    </label> <br>
+
+                    <input type="text" name="" id="firstName" placeholder="Ex. Harry">
+
+                </div>
+
+                <div>
+
+                    <label for="Last Name">
+                        Your Last Name:
+                    </label> <br>
+
+                    <input type="text" name="" id="lastName" placeholder="Ex. Potter">
+
+                </div>
+
+
+                <div>
+
+                    <label for="Credit Card Info">
+                        Enter Credit Card Information
+                    </label> <br>
+
+                    <input type="text" placeholder="Ex. 456 456 464" id="ccInfo" maxlength="6">
+
+                </div>
+
+
+
+                <button>Pay Now</button>
+
+                <!-- <button type="submit">Pay Now</button> -->
+
+                
+
+
+            </form>
+
+
+
+    </section>
+
+    <div id="afterPayment">
+
+    </div>
+    
+    <!-- linking javascript here -->
+
+    <script src="tickets.js"></script>
+    
+</body>
+</html>

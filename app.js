@@ -46,7 +46,7 @@ const renderArtists = () => {
                 </iframe>
             </video> 
             </div>
-            <div class="about">
+            <div class="abgitout">
                 <h1>${artist.name}</h1>
                 <p>Performance starts at <strong> ${artist.time}</strong></p>
                 <p>Genre - <strong>${artist.genre}</strong></p>
