@@ -9,6 +9,12 @@ h1{
     color: rgb(255, 167, 5);
 }
 
+h2{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
 .heroticket{
     /* background-color: rgb(5, 5, 5); */
     height: 200px;
@@ -45,7 +51,7 @@ form{
 
     width: 50%;
 
-    background-color: rgb(255, 211, 145);
+    background-color: #FF7103;
     
     margin-left: auto;
     margin-right: auto;
@@ -102,113 +108,53 @@ form button:hover{
 
 }
 
+input:invalid {
+    border: 3px solid rgb(255, 255, 255);
+
+    box-shadow: #030303;
+
+}
 
 
+.afterPayment{
 
+    /* background-color: aqua; */
 
+    padding: 60px 80px;
+    
+}
 
+.afterPayment p{
+    font-size: 24px;
 
+}
 
+footer{
+    display: flex;
+    font-size: 20px;
+    background-color: #030303;
 
-/*
-.ticketOptions{
-    margin: 40px 60px;
+    padding: 20px 40px;
+
+    justify-content: space-around;
+    color: #FEC87E;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FEC87E;
+}
+
+.socials{
+    /* font-size: 22px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 
     display: flex;
-    flex-direction: row;
-
-  margin-left: auto;
-  margin-right: auto; 
-
-  justify-content: center;
-
+    justify-content: space-between;
 }
 
-.ticketOptions button{
-
-    padding: 5px 10px;
-    width: 140px;
-    height: 50px;
-    font-weight: 600;
-    font-size: 16px;
-
-    border-radius: 40px;
-
-    color: rgb(45, 71, 128);
-    
-    border: 0.2px solid rgb(45, 71, 128) ;
-
-    background-color: rgb(197, 215, 255);
-    
+.socialSpace{ 
+    margin-right: 10px;
 }
-
-.ticketOptions button:hover{
-    border: 1px solid rgb(45, 71, 128) ; 
-    background-color: rgb(45, 71, 128) ;
-    color: rgb(197, 215, 255);
-}
-
-.cardicon{
-
-    font-size: 60px;
-    color: rgb(85, 55, 192);
-}
-
-.ticketOptions h2{
-    font-size: 30px;
-    color: rgb(85, 55, 192);
-}
-
-.ticketOptions p{
-    font-size: 30px;
-    margin-top: 2px;
-    /* font-weight: 800;
-
-}
-
-
-
-
-
-.option1{
-    display: flex;
-    flex-direction: column;
-
-    background-color: rgb(220, 215, 250);
-    /* height: 320px; */
-
-   /* border: 2px solid rgb(60, 0, 156);
-    
-    margin-right: 20px;
-    padding: 30px 15px;
-
-    align-items: center;
-
-    
-}
-
-
-.options2{
-    display: flex;
-    flex-direction: column;
-
-    background-color: rgb(220, 215, 250);
-    /* height: 320px; */
-
-  /*  border: 2px solid rgb(60, 0, 156);
-
-    margin-left: 20px;
-    padding: 30px 15px;
-
-    align-items: center;
-
-}
-
-ul > li {
-    list-style: none;
-    width: 90%;
-}  */
-
-
-
-
