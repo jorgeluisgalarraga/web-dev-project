@@ -33,9 +33,24 @@ const buttonPressed = (event) => {
 
     console.log("Credit Card Information:", ccInfo);
 
+
+    if (!(numOfTicket >= 1 && numOfTicket <= 5)) {
+        alert("Please enter a valid number of tickets between 1 and 5.");
+        return;}
+
+    if (firstName == "") {
+            alert("Please enter your First Name");
+            return;
+        }
+
+    if ( ccInfo.length !== 9 || isNaN(ccInfo)) {
+        alert("Please enter a valid credit card information. There should be 9 digits. ");
+        return;
+    }
+
     
 
-    // calcilation 
+    // calculation 
 
 
     const priceOneDay = 95.00;
@@ -72,17 +87,3 @@ const buttonPressed = (event) => {
  }
 
 document.querySelector("button").addEventListener("click", buttonPressed)
-
-
-
-// const xyz = () => {
-//     console.log("Heyyyy")
-// }
-
-// document.getElementById('abc1').addEventListener('submit', function (event) { 
-//     event.preventDefault(); 
-//     xyz() 
-    
-// })
-
-// console.log(xyz)
