@@ -62,7 +62,7 @@ body{
     justify-content: space-around;
 }
 
-ion-icon {
+.tickets ion-icon {
     font-size: 400%;
 }
 
@@ -158,3 +158,32 @@ main ul li {
     padding-left: 1rem;
 }
 
+footer{
+    display: flex;
+    font-size: 20px;
+    background-color: #030303;
+
+    padding: 20px 40px;
+
+    justify-content: space-around;
+    color: #FEC87E;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FEC87E;
+}
+
+.socials{
+    /* font-size: 22px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialSpace{ 
+    margin-right: 10px;
+}
