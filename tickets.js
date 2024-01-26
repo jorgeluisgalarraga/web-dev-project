@@ -42,11 +42,12 @@ const buttonPressed = (event) => {
             alert("Please enter your First Name");
             return;
         }
-
-    if ( ccInfo.length !== 9 || isNaN(ccInfo)) {
-        alert("Please enter a valid credit card information. There should be 9 digits. ");
-        return;
-    }
+    //     console.log(ccInfo.length)
+    // if ( ccInfo.length !== 9 || isNaN(ccInfo)) {
+        
+    //     alert("Please enter a valid credit card information. There should be 9 digits. ");
+    //     return;
+    // }
 
     
 

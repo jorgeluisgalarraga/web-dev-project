@@ -30,7 +30,7 @@ eiffelMarker.bindPopup("Spencer Smith Park").openPopup();
 const purchaseButton = document.querySelector(".purchase")
 
 const redirect = () => {
-    window.location.pathname = "./purchase.html"
+    window.location.pathname = "./ticketindex.html"
 }
 
 document.addEventListener(purchaseButton, redirect)
